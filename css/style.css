@@ -1,0 +1,418 @@
+body {
+  font-family: 'Neutraface2TextBook';
+  font-size: 1em;
+  background-color: #E7E4D5;
+  margin: 40px 0;
+  padding: 0;
+}
+
+.clear {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+.name {
+  font-size: 4em;
+  background-color: #C84648;
+  color: #E7E4D5;
+ /* font-family: 'LucidaConsoleRegular'; */
+  text-shadow: 1px 1px 0px #edbaba;
+  box-shadow: 0px 1px 5px rgba(255,255,255,0.5);
+  margin: 10px 0 30px 0;
+}
+
+.name .stitch {
+  border-top: 2px dashed rgba(255, 255, 255, 0.2);
+  border-bottom: 2px dashed rgba(255, 255, 255, 0.2);
+  margin: 5px;
+  padding: 10px 40px;
+
+}
+
+.code {
+  padding: 10px;
+  background-color: #fff;
+  font-family: 'LucidaConsoleRegular';
+  font-size: 1.2em;
+}
+
+.contact {
+  position: fixed;
+  top: 0;
+  right: 0;
+  color:#c84648;
+  box-shadow: 0px 1px 2px rgba(0,0,0,0.5);
+  padding: 10px 20px;
+  background-color: #FFF3DB;
+}
+
+.contact .email {
+  cursor: pointer;
+}
+
+
+.header {
+  cursor: pointer;
+  padding: 10px 10px 10px 40px;
+  text-align: left;
+  color: #C84648;
+  border-bottom: 2px solid #C84648;
+  font-size: 2.5em;
+}
+
+.section_outer {
+  margin: auto;
+  text-align: center;
+}
+
+.section {
+  margin: 20px;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.work .item {
+  float: left;
+  cursor: pointer;
+  width: 200px;
+  height: 200px;
+  margin: 10px 20px;
+  overflow: hidden;
+  border-radius: 100px;
+
+  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+
+}
+
+.work .item:hover {
+
+  border-radius: 0px;
+
+  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+
+}
+
+.work .item .bg {
+  width: 200px;
+  height: 200px;
+  transition: background 0.2s ease-out;
+  -webkit-transition: background 0.2s ease-out;
+  -moz-transition: background 0.2s ease-out;
+}
+
+.work .item .bg:hover {
+  transition: background 2.0s ease-out 0.2s;
+  -webkit-transition: background 2.0s ease-out 0.2s;
+  -moz-transition: background 2.0s ease-out 0.2s;
+}
+
+.work .item_coke .bg {
+  background: url('/img/work_coke_bg_o20.png');
+  background-color: #703E3B;
+}
+
+.work .item_coke .bg:hover {
+  background: url('/img/work_coke_bg.png') -100px;
+}
+
+.work .item_gj .bg {
+  background: url('/img/work_gj_bg_o20.png');
+  background-color: #703E3B;
+}
+
+.work .item_gj .bg:hover {
+  background: url('/img/work_gj_bg.png') -100px;
+}
+
+.work .item .title {
+  text-align: center;
+  font-size: 2em;
+  color: #FFF3DB;
+  margin-top: 70px;
+  padding: 10px 2px;
+
+  transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+}
+
+.work .item:hover .title {
+
+  margin-top: 20px;
+  background-color: rgba(211, 200, 180, 0.95);
+  color: #703E3B;
+
+  transition: all 0.4s ease-out;
+  -moz-transition: all 0.4s ease-out;
+  -webkit-transition: all 0.4s ease-out;
+
+}
+
+.work .item .detail {
+
+  text-align: center;
+  font-size: 1em;
+  background-color: rgba(112, 62, 59, 0.85);
+  color: #fff;
+  margin-top: 120px;
+  padding: 10px 2px;
+
+  transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+
+}
+
+.work .item:hover .detail {
+  margin-top: 40px;
+  transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+}
+
+
+.knowledge .item {
+  float: left;
+  width: 300px;
+  height: 100px;
+  cursor: pointer;
+
+  margin: 10px 30px;
+  overflow: hidden;
+
+  background-color: #703E3B;
+
+  transition: all 0.2s ease-in 0.2s;
+  -moz-transition: all 0.2s ease-in 0.2s;
+  -webkit-transition: all 0.2s ease-in 0.2s;
+
+}
+
+.knowledge .item:hover {
+
+  transform:scale(1.2);
+  -moz-transform:scale(1.2);
+  -webkit-transform:scale(1.2);
+
+  transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -webkit-transition: all 0.2s ease-out;
+}
+
+
+.knowledge .item .bg {
+  width: 300px;
+  height: 100px;
+  transition: background 0.2s ease-out;
+  -webkit-transition: background 0.2s ease-out;
+  -moz-transition: background 0.2s ease-out;
+}
+
+.knowledge .item .bg:hover {
+  transition: background 2.0s ease-out 0.2s;
+  -webkit-transition: background 2.0s ease-out 0.2s;
+  -moz-transition: background 2.0s ease-out 0.2s;
+}
+
+.knowledge .frontend .bg {
+  background: url('/img/knowledge_frontend_bg_o20.png');
+  background-color: #703E3B;
+}
+
+.knowledge .frontend .bg:hover {
+  background: url('/img/knowledge_frontend_bg.png') -100px;
+}
+
+.knowledge .backend .bg {
+  background: url('/img/knowledge_backend_bg_o20.png');
+  background-color: #703E3B;
+}
+
+.knowledge .backend .bg:hover {
+  background: url('/img/knowledge_backend_bg.png') -100px;
+}
+
+
+.knowledge .item .title {
+  color: #FFF3DB;
+  font-size: 2em;
+  line-height: 100px;
+  text-align: center;
+
+  transition: all 0.2s ease-in 0.2s;
+  -moz-transition: all 0.2s ease-in 0.2s;
+  -webkit-transition: all 0.2s ease-in 0.2s;
+}
+
+.knowledge .item:hover .title {
+
+  background-color: rgba(211, 200, 180, 0.5);
+  font-size: 4.2em;
+  line-height: 1.1em;
+
+  transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+}
+
+
+
+.knowledge .item .detail {
+
+  color: #fff;
+  text-align: center;
+  margin-left: 300px;
+  white-space: nowrap;
+  padding: 5px;
+  background-color: rgba(112, 62, 59, 0.5);
+
+  transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+}
+
+.knowledge .item:hover .detail {
+  margin-left: 0px;
+  transition: all 0.2s ease-in 0.2s;
+  -moz-transition: all 0.2s ease-in 0.2s;
+  -webkit-transition: all 0.2s ease-in 0.2s;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  background: rgba(0, 0, 0, 0.8);
+  opacity: 0;
+  height: 0px;
+
+  transition: all 0.1s ease-in 0.2s;
+  -moz-transition: all 0.1s ease-in 0.2s;
+  -webkit-transition: all 0.1s ease-in 0.2s;
+}
+
+.overlay_on {
+  opacity: 1;
+  height: 100%;
+
+  transition: all 0.1s ease-in;
+  -moz-transition: all 0.1s ease-in;
+  -webkit-transition: all 0.1s ease-in;
+}
+
+.modal {
+  
+  position: absolute;
+  top: 400px;
+  left: 20%;
+  width: 800px;
+  height: 0px;
+  overflow: hidden;
+
+  background-color: #E7E4D5;
+
+  transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+
+}
+
+.modal_on {
+  top: 100px;
+  height: 600px;
+
+  transition: all 0.2s ease-in-out 0.2s;
+  -moz-transition: all 0.2s ease-in-out 0.2s;
+  -webkit-transition: all 0.2s ease-in-out 0.2s;
+}
+
+.modal.item .title {
+  font-size: 2em;
+  padding: 10px;
+  margin: 10px 20px 0 20px;
+  color: #C84648;
+  border-bottom: 1px solid #C84648;
+}
+
+.modal.item .companys {
+  float: right;
+  font-size: 1.0em;
+  padding: 0 20px 10px 0;
+  margin-top: -12px;
+  color: #703E3B;
+}
+
+.modal.item .companys a {
+  color: #703E3B;
+  text-decoration: none;
+  border-bottom: 1px dashed #703E3B;
+}
+
+.modal.item .description {
+  font-size: 1.5em;
+  padding: 10px 30px;
+  color: #703E3B;
+}
+ 
+
+.modal.item .tech {
+  font-size: 1em;
+  padding: 10px;
+  margin: 0 20px;
+  color: #703E3B;
+  border-top: 1px solid #703E3B;
+}
+
+.tech ul {
+  margin: 0;
+  padding: 0 0 0 30px;
+}
+ 
+
+.close {
+
+  cursor: pointer;
+  float: right;
+  margin: 10px 10px 0 0;
+
+  font-family: Tahoma;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+
+  width: 20px;
+  height: 20px;
+
+  color: #703E3B;
+  text-shadow: 0 1px 0 rgba(112, 62, 59, 0.5);
+
+  border: 1px solid #703e3b;
+  border-radius: 15px;
+  box-shadow: inset 0px 1px 1px rgba(112, 62, 59, 0.5);
+  background-color: #FFF3DB;
+
+  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+
+}
+
+.close:hover {
+  color: #FFF3DB;
+  background-color: #C84648;
+
+  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+}
+
