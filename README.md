@@ -1,3 +1,3 @@
-= kevin olson
+# kevin olson
 
-== my current resume.. work in progress
+## my current resume.. work in progress
