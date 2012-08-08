@@ -1,8 +1,8 @@
 body {
   font-family: 'Neutraface2TextBook';
   font-size: 1em;
-  background-color: #E7E4D5;
-  margin: 40px 0;
+  background-color: #D3C8B4;
+  margin: 0;
   padding: 0;
 }
 
@@ -15,14 +15,43 @@ body {
   height: 0;
 }
 
+.outer_capsule {
+  padding: 10px;
+  background-color: #D3C8B4;
+  height: 100%;
+}
+
+.inner_capsule {
+  background-color: #E7E4D5;
+  margin: 0 10px;
+}
+
 .name {
   font-size: 4em;
   background-color: #C84648;
   color: #E7E4D5;
- /* font-family: 'LucidaConsoleRegular'; */
   text-shadow: 1px 1px 0px #edbaba;
-  box-shadow: 0px 1px 5px rgba(255,255,255,0.5);
-  margin: 10px 0 30px 0;
+}
+
+.corner {
+  width: 0px;
+  height: 0px;
+  font-size: 0;
+  line-height: 0;
+}
+
+.corner.right {
+  float: right;
+  border-top: 10px solid #C84648;
+  border-right: 10px solid transparent;
+}
+
+.corner.left {
+
+  float: left;
+
+  border-top: 10px solid #C84648;
+  border-left: 10px solid transparent;
 }
 
 .name .stitch {
@@ -30,7 +59,6 @@ body {
   border-bottom: 2px dashed rgba(255, 255, 255, 0.2);
   margin: 5px;
   padding: 10px 40px;
-
 }
 
 .code {
@@ -45,7 +73,7 @@ body {
   top: 0;
   right: 0;
   color:#c84648;
-  box-shadow: 0px 1px 2px rgba(0,0,0,0.5);
+  box-shadow: 0px 0px 2px rgba(0,0,0,0.5);
   padding: 10px 20px;
   background-color: #FFF3DB;
 }
@@ -56,7 +84,6 @@ body {
 
 
 .header {
-  cursor: pointer;
   padding: 10px 10px 10px 40px;
   text-align: left;
   color: #C84648;
@@ -287,67 +314,43 @@ body {
 }
 
 .overlay {
+  display: none;
+  cursor: pointer;
   position: absolute;
   width: 100%;
+  height: 100%;
   top: 0px;
   left: 0px;
   background: rgba(0, 0, 0, 0.8);
-  opacity: 0;
-  height: 0px;
-
-  transition: all 0.1s ease-in 0.2s;
-  -moz-transition: all 0.1s ease-in 0.2s;
-  -webkit-transition: all 0.1s ease-in 0.2s;
-}
-
-.overlay_on {
-  opacity: 1;
-  height: 100%;
-
-  transition: all 0.1s ease-in;
-  -moz-transition: all 0.1s ease-in;
-  -webkit-transition: all 0.1s ease-in;
 }
 
 .modal {
-  
+  display: none;
   position: absolute;
-  top: 400px;
+  top: 100px;
   left: 20%;
   width: 800px;
-  height: 0px;
   overflow: hidden;
 
   background-color: #E7E4D5;
 
-  transition: all 0.2s ease-in-out;
-  -moz-transition: all 0.2s ease-in-out;
-  -webkit-transition: all 0.2s ease-in-out;
-
-}
-
-.modal_on {
-  top: 100px;
-  height: 600px;
-
-  transition: all 0.2s ease-in-out 0.2s;
-  -moz-transition: all 0.2s ease-in-out 0.2s;
-  -webkit-transition: all 0.2s ease-in-out 0.2s;
 }
 
 .modal.item .title {
-  font-size: 2em;
   padding: 10px;
-  margin: 10px 20px 0 20px;
+  margin: 0px 20px 0 20px;
   color: #C84648;
   border-bottom: 1px solid #C84648;
+}
+
+.modal.item .title label {
+  font-size: 2em;
 }
 
 .modal.item .companys {
   float: right;
   font-size: 1.0em;
-  padding: 0 20px 10px 0;
-  margin-top: -12px;
+  line-height: 3em;
   color: #703E3B;
 }
 
@@ -365,41 +368,66 @@ body {
  
 
 .modal.item .tech {
+  font-family: 'LucidaConsoleRegular';
   font-size: 1em;
-  padding: 10px;
   margin: 0 20px;
   color: #703E3B;
-  border-top: 1px solid #703E3B;
 }
 
-.tech ul {
+.modal.item .tech ul {
   margin: 0;
-  padding: 0 0 0 30px;
+  padding: 0;
+}
+
+.modal.item .tech li {
+  float: left;
+  list-style-type: none;
+  padding: 5px 10px; 
+  border-radius: 5px;
+  margin: 5px;
+  background-color: #FFF3DB;
+}
+
+.modal.item .gallery {
+  margin: 10px 20px;
+  text-align: center;
+}
+
+.modal.item .gallery div {
+  cursor: pointer;
+  display: inline-block;
+  width: 160px;
+  height: 150px;
+  margin: 10px;
+  overflow: hidden;
+  border: 5px dashed #FFF3DB;
+  border-radius: 5px;
+}
+
+.modal.item .gallery div img {
+  height: 400px;
+  overflow: hidden;
+  margin-top: -100px;
+  margin-left: -100px;
 }
  
 
 .close {
-
   cursor: pointer;
   float: right;
   margin: 10px 10px 0 0;
+  padding: 0 4px 0 5px;
 
-  font-family: Tahoma;
-  font-weight: bold;
-  font-size: 15px;
-  line-height: 18px;
+  font-family: LucidaConsoleRegular;
   text-align: center;
 
-  width: 20px;
-  height: 20px;
-
   color: #703E3B;
-  text-shadow: 0 1px 0 rgba(112, 62, 59, 0.5);
 
   border: 1px solid #703e3b;
-  border-radius: 15px;
+  border-radius: 50%;
   box-shadow: inset 0px 1px 1px rgba(112, 62, 59, 0.5);
   background-color: #FFF3DB;
+
 
   transition: all 0.2s ease-in-out;
   -webkit-transition: all 0.2s ease-in-out;
@@ -414,5 +442,5 @@ body {
   transition: all 0.2s ease-in-out;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
+  
 }
-

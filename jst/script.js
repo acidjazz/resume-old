@@ -37,12 +37,12 @@ var k = {
       k.overlay();
       var modal = $('.modal.item_' + $(this).data('item'));
       k.center(modal, {noTop: true});
-      modal.addClass('modal_on');
+      modal.show();
     },
 
     close: function() {
       k.overlay(true);
-      $('.modal').removeClass('modal_on');
+      $('.modal').hide();
     }
 
   },
@@ -50,11 +50,11 @@ var k = {
   overlay: function(close) {
 
     if (close == true) {
-      $('.overlay').removeClass('overlay_on');
+      $('.overlay').hide();
       return true;
     }
 
-    $('.overlay').addClass('overlay_on');
+    $('.overlay').show();
 
   },
 

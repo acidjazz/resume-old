@@ -1,0 +1,67 @@
+
+.clock_outer {
+  margin: auto;
+  text-align: center;
+}
+
+.clock {
+  display: inline-block;
+}
+
+.hand_back {
+
+  cursor: pointer;
+
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  background: #703E3B;
+  
+  border-radius: 50%;
+
+  float: left;
+  margin: 5px;
+
+}
+
+.clock .colin {
+  float: left;
+  font-size: 3em;
+  line-height: 1.2em;
+  color: #FFF3DB;
+}
+
+.hand {
+
+  width: 25px;
+  height: 25px;
+  border-left: 8px solid #703E3B;
+  border-right: 8px solid #703E3B;
+  border-bottom: 8px solid #703E3B;
+  
+  border-radius: 50%;
+
+  transition: all 1.0s linear;
+  -webkit-transition: all 1.0s linear;
+  -moz-transition: all 1.0s linear;
+
+}
+
+.hand.h {
+  border-top: 8px solid #D3C8B4;
+  color: #D3C8B4;
+}
+
+.hand.m {
+  border-top: 8px solid #E7E4D5;
+  color: #E7E4D5;
+}
+
+.hand.s {
+  border-top: 8px solid #FFF3DB;
+  color: #FFF3DB;
+}
+
