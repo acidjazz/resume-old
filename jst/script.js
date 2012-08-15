@@ -11,7 +11,9 @@ var k = {
 
     $('.contact .email').click(k.email.i);
     $('.work .item').click(k.item.i);
-    $('.close, .overlay').click(k.item.close);
+    $('.modal .close, .overlay').click(k.item.close);
+    $('.gallery img').click(k.zoom.i);
+    $('.zoom, .zoom .close').click(k.zoom.d);
 
   },
 
@@ -36,13 +38,32 @@ var k = {
     i: function() {
       k.overlay();
       var modal = $('.modal.item_' + $(this).data('item'));
-      k.center(modal, {noTop: true});
+      k.center(modal, {height: modal.height()});
       modal.show();
     },
 
     close: function() {
       k.overlay(true);
       $('.modal').hide();
+      k.zoom.d();
+    }
+
+  },
+
+  zoom: {
+    
+    i: function() {
+
+      $('.zoom').show();
+      $('.zoom img').attr('src', $(this).attr('src'));
+      k.center($('.zoom'), {height: $('.zoom').height()});
+
+    },
+
+    d: function() {
+
+      $('.zoom').hide();
+
     }
 
   },
@@ -55,6 +76,7 @@ var k = {
     }
 
     $('.overlay').show();
+    $('.overlay').css({height: $(document).height() + 'px'});
 
   },
 

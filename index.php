@@ -62,16 +62,40 @@
 <div class="section_outer">
   <div class="section work">
 
+  <div class="item item_studio" data-item="studio"><div class="bg">
+    <div class="clear">&nbsp;</div>
+    <div class="title">fb studio</div>
+    <div class="detail">Community for agencies and marketers to share their work.</div>
+  </div></div>
+
+  <div class="item item_cards" data-item="cards"><div class="bg">
+    <div class="clear">&nbsp;</div>
+    <div class="title">crowd cards</div>
+    <div class="detail">Create, send, and tag your friends with custom online gift cards</div>
+  </div></div>
+
+  <div class="item item_dolby" data-item="dolby"><div class="bg">
+    <div class="clear">&nbsp;</div>
+    <div class="title">dolby theatre</div>
+    <div class="detail">Adam west read off 80+ facebook statuses live on dolby's page</div>
+  </div></div>
+
+  <div class="item item_game" data-item="game"><div class="bg">
+    <div class="clear">&nbsp;</div>
+    <div class="title">game face</div>
+    <div class="detail">show adidas your game face to be in a commercial during the MTV awards</div>
+  </div></div>
+
   <div class="item item_coke" data-item="coke"><div class="bg">
     <div class="clear">&nbsp;</div>
     <div class="title">coke bubbler</div>
-    <div class="detail">social network comparison interface between brands for coca cola</div>
+    <div class="detail">Social network comparison interface between brands for Coca Cola</div>
   </div></div>
 
-  <div class="item item_gj"><div class="bg">
+  <div class="item item_gj" data-item="gj"><div class="bg">
     <div class="clear">&nbsp;</div>
     <div class="title">grudge judge</div>
-    <div class="detail">facebook app for yahoo! sports to settle sport grudges</div>
+    <div class="detail">Facebook app for Yahoo! sports to settle sport grudges</div>
   </div></div>
 
   <div class="clear"></div>
@@ -127,53 +151,19 @@
 
 <div class="overlay">&nbsp;</div>
 
-<div class="modal item item_coke">
 
+<?require'_item_studio.php'; ?>
+<?require'_item_coke.php'; ?>
+<?require'_item_gj.php'; ?>
+<?require'_item_cards.php'; ?>
+<?require'_item_dolby.php'; ?>
+<?require'_item_game.php'; ?>
+
+
+<div class="zoom">
   <div class="close">&#215;</div>
-
   <div class="clear">&nbsp;</div>
-
-  <div class="title">
-
-    <label>Coca-Cola&reg; Social Bubbler</label>
-
-    <div class="companys">(
-      <a href="http://na.isobar.com/" target="_new">Isobar NA</a>, 
-      <a href="http://www.sysomos.com" target="_new">Sysomos</a>,
-      <a href="http://www.Coca-cola.com/" target="_new">Coca Cola</a>
-      )
-    </div>
-
-  </div>
-
-  <div class="description">Touchscreen data visualization application that dynaimcally displays all of their social media brand mentions as bubbles with dynamic sizing to express popularity</div>
-
- 
-  <div class="clear">&nbsp;</div>
-
-  <div class="tech">
-    <ul>
-      <li>HTML5</li>
-      <li>Canvas</li>
-      <li>JavaScript</li>
-      <li>jQuery</li>
-      <li>SVG</li>
-      <li>D3.js</li>
-    </ul>
-  </div>
-
-  <div class="clear">&nbsp;</div>
-
-  <div class="gallery">
-    <div><img src="/img/work/coke_1.png" /></div>
-    <div><img src="/img/work/coke_2.png" /></div>
-    <div><img src="/img/work/coke_3.png" /></div>
-  </div>
-
-  <div class="clear">&nbsp;</div>
-
-  <br /> <br /> <br /> <br />
-
+  <img src="" />
 </div>
 
 <script type="text/javascript">
