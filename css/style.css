@@ -199,7 +199,7 @@ body {
   text-align: center;
   font-size: 2em;
   color: #703E3B;
-  margin-top: 70px;
+  margin-top: 50px;
   padding: 10px 2px;
 
   transition: all 0.2s ease-in;
@@ -209,7 +209,7 @@ body {
 
 .work .item:hover .title {
 
-  margin-top: 20px;
+  margin-top: 0px;
   background-color: rgba(211, 200, 180, 0.95);
   color: #703E3B;
 
@@ -225,7 +225,7 @@ body {
   font-size: 1em;
   background-color: rgba(112, 62, 59, 0.85);
   color: #fff;
-  margin-top: 120px;
+  margin-top: 100px;
   padding: 10px 2px;
 
   transition: all 0.2s ease-in;
@@ -235,7 +235,7 @@ body {
 }
 
 .work .item:hover .detail {
-  margin-top: 50px;
+  margin-top: 25px;
   padding: 10px 2px 20px 2px;
   transition: all 0.2s ease-in;
   -moz-transition: all 0.2s ease-in;
@@ -401,6 +401,8 @@ body {
   font-size: 1.5em;
   padding: 10px 30px;
   color: #703E3B;
+  border-bottom: 1px solid #C84648;
+  margin: 0 20px 40px 20px;
 }
 
 .modal.item .description a {
@@ -413,10 +415,10 @@ body {
   font-size: 1em;
   margin: 0 20px;
   color: #703E3B;
+  text-align: center;
 }
 
 .modal.item .tech div {
-  float: right;
   padding: 5px 10px; 
   border-radius: 5px;
   display: inline-block;

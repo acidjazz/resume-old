@@ -16,7 +16,13 @@
 
   </div>
 
-  <div class="description">Asked to enhance Yahoo! Sports. editorial presence on Facebook, isobar went a step further and created a new IP called Grudge Judge . where Yahoo! Sports writers connect with fans to settle your sports arguments, once and for all.  Completed full front and back end development, and all operations in under a month. Check the isobar video and details <a href="http://us.isobar.com/en/work/yahoo-sports-grudge-judge/" target="_new">here</a>.</div> 
+  <div class="clear">&nbsp;</div>
+
+  <div class="gallery">
+    <div><img src="/img/work/grudge_1.jpg" /></div>
+    <div><img src="/img/work/grudge_2.gif" /></div>
+    <div><img src="/img/work/grudge_3.gif" /></div>
+  </div>
 
   <div class="clear">&nbsp;</div>
 
@@ -33,11 +39,7 @@
 
   <div class="clear">&nbsp;</div>
 
-  <div class="gallery">
-    <div><img src="/img/work/grudge_1.jpg" /></div>
-    <div><img src="/img/work/grudge_2.gif" /></div>
-    <div><img src="/img/work/grudge_3.gif" /></div>
-  </div>
+  <div class="description">Asked to enhance Yahoo! Sports. editorial presence on Facebook, isobar went a step further and created a new IP called Grudge Judge . where Yahoo! Sports writers connect with fans to settle your sports arguments, once and for all.  Completed full front and back end development, and all operations in under a month. Check the isobar video and details <a href="http://us.isobar.com/en/work/yahoo-sports-grudge-judge/" target="_new">here</a>.</div> 
 
   <div class="clear">&nbsp;</div>
 

@@ -64,37 +64,37 @@
 
   <div class="item item_studio" data-item="studio"><div class="bg">
     <div class="clear">&nbsp;</div>
-    <div class="title">fb studio</div>
+    <div class="title">Facebook Studio</div>
     <div class="detail">Community for agencies and marketers to share their work.</div>
   </div></div>
 
   <div class="item item_cards" data-item="cards"><div class="bg">
     <div class="clear">&nbsp;</div>
-    <div class="title">crowd cards</div>
+    <div class="title">Yahoo! Mail Crowd Cards</div>
     <div class="detail">Create, send, and tag your friends with custom online gift cards</div>
   </div></div>
 
   <div class="item item_dolby" data-item="dolby"><div class="bg">
     <div class="clear">&nbsp;</div>
-    <div class="title">dolby theatre</div>
+    <div class="title">Dolby Update Theatre</div>
     <div class="detail">Adam west read off 80+ facebook statuses live on dolby's page</div>
   </div></div>
 
   <div class="item item_game" data-item="game"><div class="bg">
     <div class="clear">&nbsp;</div>
-    <div class="title">game face</div>
+    <div class="title">Adidas Game Face</div>
     <div class="detail">show adidas your game face to be in a commercial during the MTV awards</div>
   </div></div>
 
   <div class="item item_coke" data-item="coke"><div class="bg">
     <div class="clear">&nbsp;</div>
-    <div class="title">coke bubbler</div>
+    <div class="title">Coca-Cola Social Bubbler</div>
     <div class="detail">Social network comparison interface between brands for Coca Cola</div>
   </div></div>
 
   <div class="item item_gj" data-item="gj"><div class="bg">
     <div class="clear">&nbsp;</div>
-    <div class="title">grudge judge</div>
+    <div class="title">Yahoo! Grudge Judge</div>
     <div class="detail">Facebook app for Yahoo! sports to settle sport grudges</div>
   </div></div>
 

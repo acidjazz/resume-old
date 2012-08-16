@@ -15,7 +15,11 @@
 
   </div>
 
-  <div class="description">Facebook Studio showcases creative, innovative, and effective marketing with Facebook. It is a community for agencies and marketers to share and be inspired. Check it out <a href="http://www.facebook-studio.com/" target="_new">here</a></div> 
+  <div class="gallery">
+    <div><img src="/img/work/studio_1.png" /></div>
+    <div><img src="/img/work/studio_2.png" /></div>
+    <div><img src="/img/work/studio_3.png" /></div>
+  </div>
 
   <div class="clear">&nbsp;</div>
 
@@ -33,11 +37,7 @@
 
   <div class="clear">&nbsp;</div>
 
-  <div class="gallery">
-    <div><img src="/img/work/studio_1.png" /></div>
-    <div><img src="/img/work/studio_2.png" /></div>
-    <div><img src="/img/work/studio_3.png" /></div>
-  </div>
+  <div class="description">Facebook Studio showcases creative, innovative, and effective marketing with Facebook. It is a community for agencies and marketers to share and be inspired. Check it out <a href="http://www.facebook-studio.com/" target="_new">here</a></div> 
 
   <div class="clear">&nbsp;</div>
 
