@@ -35,8 +35,7 @@
   </div>
   <div class="clear">&nbsp;</div>
 
-
-  <div class="description">Simple yet very effective facebook app that you add and within a given 24 hour window we scrape your facebook status.  If we like it Adam West read it live on camera.  I scraped over 80k statuses in one night using 10 servers with ec2. After the live broadcast we broke up all 80+ status reads to individual videos to put on your wall.</div> 
+  <div class="description">Simple yet very effective Facebook app that you add and within a given 24 hour window we scrape your status.  If we liked it Adam West read it live on camera.  I scraped over 80k statuses in one night using 10 servers with ec2. After the live broadcast we broke up all 80+ status reads to individual videos to put on your wall. It is <a target="_new" href="http://apps.facebook.com/dolbyupdatetheater/">still live</a></div> 
 
   <div class="clear">&nbsp;</div>
 

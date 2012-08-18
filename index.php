@@ -1,3 +1,9 @@
+<?
+
+require_once 'config.php';
+
+?>
+
 <!DOCTYPE html>
 <html>
 
@@ -8,9 +14,11 @@
 
 <link href="/img/favicon.ico" rel="icon" type="image/x-icon" />
 
-<link rel="stylesheet" href="/css/fonts.css" type="text/css" media="all" />
-<link rel="stylesheet" href="/css/clock.css" type="text/css" media="all" />
-<link rel="stylesheet" href="/css/style.css" type="text/css" media="all" />
+<?if (isset($_REQUEST['t'])): ?>
+<link rel="stylesheet" href="/css/styles.php?t=<?=$_REQUEST['t']?>" type="text/css" media="all" />
+<?else:?>
+<link rel="stylesheet" href="/css/styles.php" type="text/css" media="all" />
+<?endif?>
 
 <script type="text/javascript" src="/jst/lib.js"></script>
 <script type="text/javascript" src="/jst/clock.js"></script>
@@ -77,13 +85,13 @@
   <div class="item item_dolby" data-item="dolby"><div class="bg">
     <div class="clear">&nbsp;</div>
     <div class="title">Dolby Update Theatre</div>
-    <div class="detail">Adam west read off 80+ facebook statuses live on dolby's page</div>
+    <div class="detail">Adam west read off 80+ Facebook statuses live on dolby's page</div>
   </div></div>
 
   <div class="item item_game" data-item="game"><div class="bg">
     <div class="clear">&nbsp;</div>
     <div class="title">Adidas Game Face</div>
-    <div class="detail">show adidas your game face to be in a commercial during the MTV awards</div>
+    <div class="detail">Show adidas your game face to be in a commercial during the MTV awards</div>
   </div></div>
 
   <div class="item item_coke" data-item="coke"><div class="bg">
@@ -151,13 +159,12 @@
 
 <div class="overlay">&nbsp;</div>
 
-
-<?require'_item_studio.php'; ?>
-<?require'_item_coke.php'; ?>
-<?require'_item_gj.php'; ?>
-<?require'_item_cards.php'; ?>
-<?require'_item_dolby.php'; ?>
-<?require'_item_game.php'; ?>
+<?require 'tpl/_item_studio.php'; ?>
+<?require 'tpl/_item_coke.php'; ?>
+<?require 'tpl/_item_gj.php'; ?>
+<?require 'tpl/_item_cards.php'; ?>
+<?require 'tpl/_item_dolby.php'; ?>
+<?require 'tpl/_item_game.php'; ?>
 
 
 <div class="zoom">

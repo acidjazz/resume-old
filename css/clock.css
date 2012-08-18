@@ -15,10 +15,8 @@
   width: 40px;
   height: 40px;
   padding: 10px;
-  color: #fff;
   font-weight: bold;
   text-align: center;
-  background: #703E3B;
   
   border-radius: 50%;
 
@@ -31,16 +29,13 @@
   float: left;
   font-size: 3em;
   line-height: 1.2em;
-  color: #FFF3DB;
 }
 
 .hand {
 
   width: 25px;
   height: 25px;
-  border-left: 8px solid #703E3B;
-  border-right: 8px solid #703E3B;
-  border-bottom: 8px solid #703E3B;
+  border: 8px solid;
   
   border-radius: 50%;
 
@@ -50,18 +45,6 @@
 
 }
 
-.hand.h {
-  border-top: 8px solid #D3C8B4;
-  color: #D3C8B4;
+.hand.h,.hand.m,.hand.s {
+  border-top: 8px solid $3;
 }
-
-.hand.m {
-  border-top: 8px solid #E7E4D5;
-  color: #E7E4D5;
-}
-
-.hand.s {
-  border-top: 8px solid #FFF3DB;
-  color: #FFF3DB;
-}
-

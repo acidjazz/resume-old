@@ -1,0 +1,97 @@
+
+.outer_capsule { background-color: $1; }
+.inner_capsule { background-color: $2; }
+
+/* clock */
+
+.clock .colin { color: $3; }
+
+.hand_back { background-color: $1; }
+.hand { border-color: $1; }
+
+.hand.h, .hand.m, .hand.s {
+  color: $3;
+  border-color: $1;
+  border-top-color: $3;
+}
+
+
+.name {
+  background-color: $4;
+  color: $2;
+}
+
+.name .stitch { border-color: $3; }
+.corner.right, .corner.left { border-top-color: $5; }
+
+.contact {
+  color: $3;
+  background-color: $2;
+}
+
+.header {
+  color: $3;
+  border-bottom-color: $3;
+}
+
+.work .item .bg { background-color: $2; }
+
+.work .item .title { color: $4; }
+
+.work .item:hover .title {
+  color: $2;
+  background-color: rgba(!4, 0.95);
+}
+
+.work .item .detail {
+  color: $1;
+  background-color: rgba(!5, 0.85);
+}
+
+.knowledge .item { background-color: $5; }
+.knowledge .frontend .bg { background-color: $5; }
+.knowledge .item .title { color: $2; }
+.knowledge .item:hover .title { background-color: rgba(!4, 0.8); }
+
+.knowledge .item .detail {
+  color: $1;
+  background-color: rgba(!3, 0.8);
+}
+
+.modal { background-color: $2; }
+
+.modal.item .title {
+  color: $4;
+  border-bottom: 1px solid $4;
+}
+
+.modal.item .companys { color: $4; }
+.modal.item .companys a { 
+  color: $3; 
+  border-bottom-color: $3;
+}
+
+.modal.item .description { 
+  color: $4; 
+}
+.modal.item .description a { color: $3; }
+.modal.item .description { border-bottom-color: $4; }
+
+.modal.item .tech { color: $3; }
+.modal.item .tech div { background-color: $1; }
+.modal.item .gallery div { border-color: $1; }
+
+.close {
+  color: $3;
+  border-color: $4;
+  background-color: $2;
+}
+
+.close:hover {
+  color: $1;
+  background-color: $3;
+}
+
+.zoom { background-color: $1; }
+
+
