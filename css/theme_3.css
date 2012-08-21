@@ -1,0 +1,97 @@
+
+.outer_capsule { background-color: $3; }
+.inner_capsule { background-color: $5; }
+
+.config { background-color: $4; }
+.logo_config div { border-color: $3 }
+
+/* clock */
+
+.clock .colin { color: $1; }
+
+.hand_back { background-color: $3; }
+.hand { border-color: $3; }
+
+.hand.h, .hand.m, .hand.s {
+  color: $4;
+  border-color: $3;
+  border-top-color: $4;
+}
+
+.contact {
+  color: $4;
+  background-color: $5;
+}
+
+.name {
+  background-color: $4;
+  color: $5;
+}
+
+.name .stitch { border-color: $1; }
+.corner.right, .corner.left { border-top-color: $4; }
+
+.header {
+  color: $2;
+  border-bottom-color: $2;
+}
+
+.work .item .bg { background-color: $4; }
+
+.work .item .title { color: $5; }
+
+.work .item:hover .title {
+  color: $4;
+  background-color: rgba(!5, 0.95);
+}
+
+.work .item .detail {
+  color: $1;
+  background-color: rgba(!5, 0.85);
+}
+
+.knowledge .item { background-color: $1; }
+.knowledge .frontend .bg { background-color: $1; }
+.knowledge .item .title { color: $3; }
+.knowledge .item:hover .title { background-color: rgba(!1, 0.8); }
+
+.knowledge .item .detail {
+  color: $3;
+  background-color: rgba(!5, 0.8);
+}
+
+.modal { background-color: $5; }
+
+.modal.item .title {
+  color: $3;
+  border-bottom: 1px solid $2;
+}
+
+.modal.item .companys { color: $1; }
+.modal.item .companys a { 
+  color: $3; 
+  border-bottom-color: $1;
+}
+
+.modal.item .description { color: $4; }
+.modal.item .description a { color: $1; }
+.modal.item .description { border-bottom-color: $2; }
+
+.modal.item .tech { color: $4; }
+.modal.item .tech div { background-color: $3; }
+.modal.item .gallery div { border-color: $1; }
+
+.close {
+  color: $1;
+  border-color: $1;
+  background-color: $3;
+}
+
+.close:hover {
+  color: $4;
+  background-color: $5;
+}
+
+.zoom { background-color: $4; }
+
+

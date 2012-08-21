@@ -2,6 +2,9 @@
 .outer_capsule { background-color: $1; }
 .inner_capsule { background-color: $2; }
 
+.config { background-color: $4; }
+.logo_config div { border-color: $1 }
+
 /* clock */
 
 .clock .colin { color: $3; }
@@ -34,9 +37,9 @@
   border-bottom-color: $3;
 }
 
-.work .item .bg { background-color: $2; }
+.work .item .bg { background-color: $1; }
 
-.work .item .title { color: $4; }
+.work .item .title { color: $5; }
 
 .work .item:hover .title {
   color: $2;
@@ -62,7 +65,7 @@
 
 .modal.item .title {
   color: $4;
-  border-bottom: 1px solid $4;
+  border-bottom: 1px solid $3;
 }
 
 .modal.item .companys { color: $4; }
@@ -75,7 +78,7 @@
   color: $4; 
 }
 .modal.item .description a { color: $3; }
-.modal.item .description { border-bottom-color: $4; }
+.modal.item .description { border-bottom-color: $3; }
 
 .modal.item .tech { color: $3; }
 .modal.item .tech div { background-color: $1; }

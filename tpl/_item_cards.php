@@ -1,6 +1,6 @@
 <div class="modal item item_cards">
 
-  <div class="close">&#215;</div>
+  <div class="close">close</div>
   <div class="clear">&nbsp;</div>
 
   <div class="title">

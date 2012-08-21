@@ -127,16 +127,21 @@ body {
   -moz-transition: background 2.0s ease-out 0.2s;
 }
 
-.work .item_coke .bg { background: url('/img/work_coke_bg_o20.png'); }
-.work .item_coke .bg:hover { background: url('/img/work_coke_bg.png') -100px; }
 .work .item_gj .bg { background: url('/img/work_gj_bg_o20.png'); }
 .work .item_gj .bg:hover { background: url('/img/work_gj_bg.png') -100px; }
+
 .work .item_studio .bg { background: url('/img/work_studio_bg_o20.png'); }
 .work .item_studio .bg:hover { background: url('/img/work_studio_bg.png') -100px; }
+
+.work .item_coke .bg { background: url('/img/work_coke_bg_o20.png'); }
+.work .item_coke .bg:hover { background: url('/img/work_coke_bg.png') -100px; }
+
 .work .item_cards .bg { background: url('/img/work_cards_bg_o20.png'); }
 .work .item_cards .bg:hover { background: url('/img/work_cards_bg.png') -100px; }
+
 .work .item_dolby .bg { background: url('/img/work_dolby_bg_o20.png'); }
 .work .item_dolby .bg:hover { background: url('/img/work_dolby_bg.png') -100px; }
+
 .work .item_game .bg { background: url('/img/work_game_bg_o20.png'); }
 .work .item_game .bg:hover { background: url('/img/work_game_bg.png') -100px; }
 
@@ -370,13 +375,12 @@ body {
   cursor: pointer;
   float: right;
   margin: 10px;
-  padding: 0 4px 0 5px;
+  padding: 5px;
 
-  font-family: LucidaConsoleRegular;
   text-align: center;
 
   border: 1px solid;
-  border-radius: 50%;
+  border-radius: 5px;
 
   transition: all 0.2s ease-in-out;
   -webkit-transition: all 0.2s ease-in-out;
@@ -406,4 +410,65 @@ body {
 
 .zoom img {
   box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.5);
+}
+
+.preload {
+  display: none;
+}
+
+
+
+.config {
+  position: fixed;
+  top: 20px;
+  left: -175px;
+  width: 220px;
+
+  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+}
+
+.config_open {
+  left: 0px;
+
+  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+
+}
+
+
+.logo_config {
+  float: right;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.logo_config div {
+  font-size: 0px;
+  width: 20px;
+  border: 2px solid;
+  margin: 5px;
+}
+
+.config_theme {
+  width: 170px;
+  margin: 6px 0 0 0;
+}
+
+.config_theme .theme {
+  float: right;
+  margin: 2px;
+  padding: 2px;
+}
+
+.config_theme .theme_active {
+  border: 1px solid #fff;
+}
+
+.config_theme .color {
+  float: left;
+  height: 20px;
+  width: 6px;
 }

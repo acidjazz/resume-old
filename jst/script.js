@@ -15,6 +15,8 @@ var k = {
     $('.gallery img').click(k.zoom.i);
     $('.zoom, .zoom .close').click(k.zoom.d);
 
+    $('.logo_config').click(k.config.i);
+
   },
 
   email: {
@@ -99,6 +101,24 @@ var k = {
     return true;
 
   },
+
+  config: {
+
+    i: function() {
+
+      var config = $('.config');
+
+      console.log(config.length);
+
+      if (!config.hasClass('config_open')) {
+        config.addClass('config_open');
+      } else {
+        config.removeClass('config_open');
+      }
+
+    }
+
+  }
 
 
 }

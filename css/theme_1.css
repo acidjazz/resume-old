@@ -2,6 +2,9 @@
 .outer_capsule { background-color: $2; }
 .inner_capsule { background-color: $3; }
 
+.config { background-color: $1; }
+.logo_config div { border-color: $3 }
+
 .name {
   background-color: $5;
   color: $3;

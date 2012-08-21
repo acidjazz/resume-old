@@ -2,6 +2,12 @@
 
 require_once 'config.php';
 
+$theme = 1;
+
+if (isset($_REQUEST['t']) && is_numeric($_REQUEST['t'])) {
+  $theme = $_REQUEST['t'];
+}
+
 ?>
 
 <!DOCTYPE html>
@@ -14,11 +20,7 @@ require_once 'config.php';
 
 <link href="/img/favicon.ico" rel="icon" type="image/x-icon" />
 
-<?if (isset($_REQUEST['t'])): ?>
-<link rel="stylesheet" href="/css/styles.php?t=<?=$_REQUEST['t']?>" type="text/css" media="all" />
-<?else:?>
-<link rel="stylesheet" href="/css/styles.php" type="text/css" media="all" />
-<?endif?>
+<link rel="stylesheet" href="/css/styles.php?t=<?=$theme?>" type="text/css" media="all" />
 
 <script type="text/javascript" src="/jst/lib.js"></script>
 <script type="text/javascript" src="/jst/clock.js"></script>
@@ -37,6 +39,31 @@ require_once 'config.php';
     <div>(949) 290 - 8989</div>
     <div class="email" data-input='<input readonly type="text" value="acidjazz@gmail.com" />'>acidjazz@gmail.com</div>
   </div>
+
+
+    <div class="config <?=isset($_REQUEST['t']) ? 'config_open' : ''?>">
+
+    <div class="logo_config">
+      <div>&nbsp;</div>
+      <div>&nbsp;</div>
+      <div>&nbsp;</div>
+    </div>
+
+    <div class="config_theme">
+    <?foreach (palette::$_themes as $_num=>$_theme): ?>
+      <a href="/?t=<?=substr($_num, 1)?>">
+      <div class="theme <?='_'.$theme == $_num ? 'theme_active' : ''?>">
+      <?for ($i = 0; $i != 5; $i++): ?>
+      <div class="color" style="background-color: #<?=$_theme[$i]?>"></div>
+      <?endfor?>
+      <div class="clear">&nbsp;</div>
+      </div>
+    </a>
+    <?endforeach?>
+    <div class="clear">&nbsp;</div>
+    </div>
+  </div>
+
 
   <div class="clock_outer">
     <div class="clock">
@@ -184,6 +211,21 @@ require_once 'config.php';
 
     </div>
   </div>
+
+
+<div class="preload">
+  <img src="/img/work_gj_bg.png" />
+  <img src="/img/work_studio_bg.png" />
+  <img src="/img/work_coke_bg.png" />
+  <img src="/img/work_cards_bg.png" />
+  <img src="/img/work_dolby_bg.png" />
+  <img src="/img/work_game_bg.png" />
+
+  <img src="/img/knowledge_frontend_bg.png" />
+  <img src="/img/knowledge_backend_bg.png" />
+</div>
+
+
 
 </body>
 </html>

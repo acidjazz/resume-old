@@ -3,18 +3,20 @@
 class palette {
 
 
-  private $_1 = array('655643','80bca3','f6f7bd','e6ac27','bf4d28');
-
-  private $_2 = array('e8ddcb','cdb380','036564','033649','031634');
-
-  private $_3 = array('e7e4d5','c84648','fff3db','d3c8b4','703e3b');
+  public static $_themes = array(
+    '_1' => array('655643','80bca3','fbfbe0','e6ac27','bf4d28'),
+    //'_1' => array('655643','80bca3','f6f7bd','e6ac27','bf4d28'),
+    '_2' => array('e8ddcb','cdb380','036564','033649','031634'),
+    '_3' => array('fd6162','ff7f66','ff9f88','587289','f4e4cd'),
+    '_4' => array('fee2d4','fbc596','f6883b','371a0a','57974d')
+  );
 
   private static $_t = false;
 
   public static function i($file, $theme=1) {
 
     $factory = new palette();
-    $factory->_t = $factory->{'_'.$theme};
+    $factory->_t = self::$_themes['_'.$theme];
 
     return $factory->parse($file);
 
