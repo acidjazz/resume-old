@@ -52,11 +52,11 @@
 
 .knowledge .item { background-color: $1; }
 .knowledge .frontend .bg { background-color: $1; }
-.knowledge .item .title { color: $3; }
+.knowledge .item .title { color: $5; }
 .knowledge .item:hover .title { background-color: rgba(!1, 0.8); }
 
 .knowledge .item .detail {
-  color: $3;
+  color: $1;
   background-color: rgba(!5, 0.8);
 }
 

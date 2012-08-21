@@ -36,7 +36,7 @@
 
   <div class="clear">&nbsp;</div>
 
-  <div class="description">The application promoted the new launch of Yahoo! Mail and provided a fun and easy-to-use way for fans of Yahoo! Mail on Facebook to send custom GROUP greeting cards to friends. It allowed for up to 10 friends to contribute messages to a single recipient. Delivery was timed and determined by the sender who could then distribute the crowd card through Facebook or e-mail.</div> 
+  <div class="description">This application promoted the new launch of Yahoo! Mail and provided a fun and easy-to-use way for fans of Yahoo! Mail on Facebook to send custom group greeting cards to friends. It allowed for up to 10 friends to contribute messages to a single recipient. Delivery was timed and determined by the sender who could then distribute the crowd card through Facebook or e-mail.</div> 
 
   <div class="clear">&nbsp;</div>
 </div>

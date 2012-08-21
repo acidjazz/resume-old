@@ -145,6 +145,9 @@ body {
 .work .item_game .bg { background: url('/img/work_game_bg_o20.png'); }
 .work .item_game .bg:hover { background: url('/img/work_game_bg.png') -100px; }
 
+.work .item_multi .bg { background: url('/img/work_multi_bg_o20.png'); }
+.work .item_multi .bg:hover { background: url('/img/work_multi_bg.png') -100px; }
+
 .work .item .title {
   text-align: center;
   font-size: 1.8em;
@@ -233,6 +236,8 @@ body {
 .knowledge .frontend .bg:hover { background: url('/img/knowledge_frontend_bg.png') -100px; }
 .knowledge .backend .bg { background: url('/img/knowledge_backend_bg_o20.png'); }
 .knowledge .backend .bg:hover { background: url('/img/knowledge_backend_bg.png') -100px; }
+.knowledge .ops .bg { background: url('/img/knowledge_ops_bg_o20.png'); }
+.knowledge .ops .bg:hover { background: url('/img/knowledge_ops_bg.png') -100px; }
 
 .knowledge .item .title {
   font-size: 2em;
@@ -296,8 +301,7 @@ body {
 }
 
 .modal.item .title {
-  padding: 10px;
-  margin: 0px 0px 0 0px;
+  padding: 10px 40px;
 }
 
 .modal.item .title label {
@@ -317,16 +321,15 @@ body {
 
 .modal.item .description {
   font-size: 1.5em;
-  padding: 10px 30px 30px 30px;
+  padding: 10px 40px 30px 40px;
   border-bottom: 1px solid;
-  margin: 0 0px 40px 0px;
+  margin: 0px 0px 40px 0px;
 }
 
 .modal.item .tech {
   font-family: 'LucidaConsoleRegular';
   font-size: 1em;
   margin: 20px;
-  color: $3;
   text-align: center;
 }
 

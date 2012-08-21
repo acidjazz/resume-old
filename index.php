@@ -133,6 +133,14 @@ if (isset($_REQUEST['t']) && is_numeric($_REQUEST['t'])) {
     <div class="detail">Facebook app for Yahoo! sports to settle sport grudges</div>
   </div></div>
 
+  <div class="item item_multi" data-item="multi"><div class="bg">
+    <div class="clear">&nbsp;</div>
+    <div class="title">Kohler Multi Flushers</div>
+    <div class="detail">Every day millions of people suffer humiliation at the hands of toilets that don't flush properly on the first try.</div>
+  </div></div>
+
+
+
   <div class="clear"></div>
   </div>
 </div>
@@ -152,7 +160,7 @@ if (isset($_REQUEST['t']) && is_numeric($_REQUEST['t'])) {
       <div class="title">back end</div>
       <div class="detail">php / mysql&amp;nosql / mvc</div>
     </div></div>
-    <div class="item"><div class="bg">
+    <div class="item ops"><div class="bg">
       <div class="title">operations</div>
       <div class="detail">aws /  ec2 / deployment</div>
     </div></div>
@@ -192,10 +200,11 @@ if (isset($_REQUEST['t']) && is_numeric($_REQUEST['t'])) {
 <?require 'tpl/_item_cards.php'; ?>
 <?require 'tpl/_item_dolby.php'; ?>
 <?require 'tpl/_item_game.php'; ?>
+<?require 'tpl/_item_multi.php'; ?>
 
 
 <div class="zoom">
-  <div class="close">&#215;</div>
+  <div class="close">close</div>
   <div class="clear">&nbsp;</div>
   <img src="" />
 </div>
@@ -221,8 +230,11 @@ if (isset($_REQUEST['t']) && is_numeric($_REQUEST['t'])) {
   <img src="/img/work_dolby_bg.png" />
   <img src="/img/work_game_bg.png" />
 
+  <img src="/img/work_multi_bg.png" />
+
   <img src="/img/knowledge_frontend_bg.png" />
   <img src="/img/knowledge_backend_bg.png" />
+  <img src="/img/knowledge_ops_bg.png" />
 </div>
 
 
