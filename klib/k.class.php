@@ -46,7 +46,7 @@ HTML;
 
     $file = 'highlight'.rand(100,10000);
     file_put_contents('/tmp/'.$file,$text);
-    $highlighted = shell_exec("highlight -f --style neon --syntax=$type < /tmp/$file");
+    $highlighted = shell_exec("highlight -f --inline-css -s nightshimmer --syntax=$type < /tmp/$file");
     unlink('/tmp/'.$file);
     if ($nopre == false) {
       return str_replace("\n", '<br />', $highlighted);
@@ -68,6 +68,7 @@ HTML;
     $highlighted = str_replace("\t", '&nbsp;&nbsp;', $highlighted);
 
     $data = <<<HTML
+
     <style type="text/css">
     .num  { color:#7D26Cd; }
     .esc  { color:#ff00ff; }

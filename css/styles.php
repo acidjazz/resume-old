@@ -1,7 +1,7 @@
 <?
 
 require_once '../config.php';
-define('KDEBUG_JSON', true);
+
 header('Content-type: text/css');
 
 $theme = 1;

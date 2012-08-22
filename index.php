@@ -40,40 +40,8 @@ if (isset($_REQUEST['t']) && is_numeric($_REQUEST['t'])) {
     <div class="email" data-input='<input readonly type="text" value="acidjazz@gmail.com" />'>acidjazz@gmail.com</div>
   </div>
 
-
-    <div class="config <?=isset($_REQUEST['t']) ? 'config_open' : ''?>">
-
-    <div class="logo_config">
-      <div>&nbsp;</div>
-      <div>&nbsp;</div>
-      <div>&nbsp;</div>
-    </div>
-
-    <div class="config_theme">
-    <?foreach (palette::$_themes as $_num=>$_theme): ?>
-      <a href="/?t=<?=substr($_num, 1)?>">
-      <div class="theme <?='_'.$theme == $_num ? 'theme_active' : ''?>">
-      <?for ($i = 0; $i != 5; $i++): ?>
-      <div class="color" style="background-color: #<?=$_theme[$i]?>"></div>
-      <?endfor?>
-      <div class="clear">&nbsp;</div>
-      </div>
-    </a>
-    <?endforeach?>
-    <div class="clear">&nbsp;</div>
-    </div>
-  </div>
-
-
-  <div class="clock_outer">
-    <div class="clock">
-      <div class="hand_back h"><div class="hand h">h</div></div>
-      <div class="colin">:</div>
-      <div class="hand_back m"><div class="hand m">m</div></div>
-      <div class="colin">:</div>
-      <div class="hand_back s"><div class="hand s">s</div></div>
-    </div>
-  </div>
+  <?require_once 'tpl/_config.php'; ?>
+  <?require_once 'tpl/_clock.php'; ?>
 
   <div class="clear">&nbsp;</div>
 
@@ -169,30 +137,12 @@ if (isset($_REQUEST['t']) && is_numeric($_REQUEST['t'])) {
 </div>
 
 <div class="clear"></div>
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-
-<div class="code">
- 
-<?=highlight_string('
-  <?php
-  // sample code to test code dump
-  private function seed() {
-   list($usec, $sec) = explode(\' \', microtime());
-   mt_srand((float) $sec + ((float) $usec * 100000));
-   return mt_rand();
-  }
-  ?>
-  ', true);?>
-
-</div>
 
 <div class="overlay">&nbsp;</div>
+
+
+<?require 'tpl/_code.php'; ?>
+
 
 <?require 'tpl/_item_studio.php'; ?>
 <?require 'tpl/_item_coke.php'; ?>
@@ -218,7 +168,13 @@ if (isset($_REQUEST['t']) && is_numeric($_REQUEST['t'])) {
   });
 </script>
 
+
+
     </div>
+<br /> <br /> <br /> <br />
+<br /> <br /> <br /> <br />
+<br /> <br /> <br /> <br />
+<br /> <br /> <br /> <br />
   </div>
 
 
@@ -236,6 +192,7 @@ if (isset($_REQUEST['t']) && is_numeric($_REQUEST['t'])) {
   <img src="/img/knowledge_backend_bg.png" />
   <img src="/img/knowledge_ops_bg.png" />
 </div>
+
 
 
 

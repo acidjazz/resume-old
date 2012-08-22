@@ -9,9 +9,15 @@
   margin-left: 135px;
 }
 
-.hand_back {
+.clock:hover .code_view {
+  opacity: 1;
+  transition: opacity 0.2s linear;
+  -webkit-transition: opacity 0.2s linear;
+  -moz-transition: opacity 0.2s linear;
 
-  cursor: pointer;
+}
+
+.hand_back {
 
   width: 40px;
   height: 40px;

@@ -5,6 +5,22 @@
 .config { background-color: $1; }
 .logo_config div { border-color: $3 }
 
+.clock .colin { color: $4; }
+
+.hand_back { background-color: $1; }
+.hand { border-color: $1; }
+
+.hand.h, .hand.m, .hand.s {
+  color: $3;
+  border-color: $1;
+  border-top-color: $3;
+}
+
+.contact {
+  color: $1;
+  background-color: $3;
+}
+
 .name {
   background-color: $5;
   color: $3;
@@ -12,11 +28,6 @@
 
 .name .stitch { border-color: $4; }
 .corner.right, .corner.left { border-top-color: $5; }
-
-.contact {
-  color: $1;
-  background-color: $3;
-}
 
 .header {
   color: $2;
@@ -47,7 +58,7 @@
   background-color: rgba(!5, 0.8);
 }
 
-.modal { background-color: $3; }
+.modal.item { background-color: $3; }
 
 .modal.item .title {
   color: $2;
@@ -83,16 +94,4 @@
 
 .zoom { background-color: $1; }
 
-/* clock */
-
-.clock .colin { color: $4; }
-
-.hand_back { background-color: $1; }
-.hand { border-color: $1; }
-
-.hand.h, .hand.m, .hand.s {
-  color: $3;
-  border-color: $1;
-  border-top-color: $3;
-}
 

@@ -11,11 +11,13 @@ var k = {
 
     $('.contact .email').click(k.email.i);
     $('.work .item').click(k.item.i);
-    $('.modal .close, .overlay').click(k.item.close);
+    $('.modal .close, .overlay, .code .close').click(k.item.close);
     $('.gallery img').click(k.zoom.i);
     $('.zoom, .zoom .close').click(k.zoom.d);
 
     $('.logo_config').click(k.config.i);
+
+    $('.code_view').click(k.code.i);
 
   },
 
@@ -47,6 +49,7 @@ var k = {
     close: function() {
       k.overlay(true);
       $('.modal').hide();
+      $('.code').hide();
       k.zoom.d();
     }
 
@@ -78,7 +81,7 @@ var k = {
     }
 
     $('.overlay').show();
-    $('.overlay').css({height: $(document).height() + 'px'});
+    $('.overlay').css({height: $(window).height() + 'px'});
 
   },
 
@@ -117,6 +120,21 @@ var k = {
       }
 
     }
+
+  },
+
+  code: {
+
+    i: function() {
+
+      k.overlay();
+      var modal = $('.code_' + $(this).data('data'));
+      k.center(modal);
+      modal.show();
+
+
+    }
+
 
   }
 
