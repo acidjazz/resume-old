@@ -92,7 +92,7 @@ if (isset($_REQUEST['t']) && is_numeric($_REQUEST['t'])) {
   <div class="item item_coke" data-item="coke"><div class="bg">
     <div class="clear">&nbsp;</div>
     <div class="title">Coca-Cola Social Bubbler</div>
-    <div class="detail">Social network comparison interface between brands for Coca Cola</div>
+    <div class="detail">Social network comparison between brands for Coca Cola</div>
   </div></div>
 
   <div class="item item_gj" data-item="gj"><div class="bg">
@@ -104,9 +104,8 @@ if (isset($_REQUEST['t']) && is_numeric($_REQUEST['t'])) {
   <div class="item item_multi" data-item="multi"><div class="bg">
     <div class="clear">&nbsp;</div>
     <div class="title">Kohler Multi Flushers</div>
-    <div class="detail">Every day millions of people suffer humiliation at the hands of toilets that don't flush properly on the first try.</div>
+    <div class="detail">"Elf Yourself" type app with wizard-style interface creating custom videos</div>
   </div></div>
-
 
 
   <div class="clear"></div>
@@ -126,7 +125,7 @@ if (isset($_REQUEST['t']) && is_numeric($_REQUEST['t'])) {
     </div></div>
     <div class="item backend"><div class="bg">
       <div class="title">back end</div>
-      <div class="detail">php / mysql&amp;nosql / mvc</div>
+      <div class="detail">php / mysql to nosql / mvc</div>
     </div></div>
     <div class="item ops"><div class="bg">
       <div class="title">operations</div>
@@ -143,7 +142,6 @@ if (isset($_REQUEST['t']) && is_numeric($_REQUEST['t'])) {
 
 <?require 'tpl/_code.php'; ?>
 
-
 <?require 'tpl/_item_studio.php'; ?>
 <?require 'tpl/_item_coke.php'; ?>
 <?require 'tpl/_item_gj.php'; ?>
@@ -153,28 +151,11 @@ if (isset($_REQUEST['t']) && is_numeric($_REQUEST['t'])) {
 <?require 'tpl/_item_multi.php'; ?>
 
 
-<div class="zoom">
-  <div class="close">close</div>
-  <div class="clear">&nbsp;</div>
-  <img src="" />
-</div>
-
-<script type="text/javascript">
-  $(document).ready(function() {
-
-    k.i();
-    clock.i();
-
-  });
-</script>
-
-
-
     </div>
-<br /> <br /> <br /> <br />
-<br /> <br /> <br /> <br />
-<br /> <br /> <br /> <br />
-<br /> <br /> <br /> <br />
+    <br /> <br /> <br /> <br />
+    <br /> <br /> <br /> <br />
+    <br /> <br /> <br /> <br />
+    <br /> <br /> <br /> <br />
   </div>
 
 
@@ -193,6 +174,21 @@ if (isset($_REQUEST['t']) && is_numeric($_REQUEST['t'])) {
   <img src="/img/knowledge_ops_bg.png" />
 </div>
 
+
+<div class="zoom">
+  <div class="close">close</div>
+  <div class="clear">&nbsp;</div>
+  <img src="" />
+</div>
+
+<script type="text/javascript">
+
+  $(document).ready(function() {
+    k.i();
+    clock.i();
+  });
+
+</script>
 
 
 
