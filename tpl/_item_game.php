@@ -1,6 +1,6 @@
 <div class="modal item item_game">
 
-  <div class="close">close</div>
+  <div class="close"><span class="icon-cancel"></span></div>
   <div class="clear">&nbsp;</div>
 
   <div class="title">

@@ -170,3 +170,46 @@
   font-weight: normal;
   font-style: normal;
 }
+
+@font-face {
+  font-family: 'fontello';
+  src: url("/fnt/fontello.eot");
+  src: url("/fnt/fontello.eot?#iefix") format('embedded-opentype'), url("/fnt/fontello.woff") format('woff'), url("/fnt/fontello.ttf") format('truetype'), url("/fnt/fontello.svg#fontello") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: 'fontello';
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: 0.2em;
+  text-align: center;
+  opacity: 0.7;
+/* Uncomment for 3D effect */
+/* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+/* fix buttons height */
+  line-height: 1em;
+/* you can be more comfortable with increased icons size */
+/* font-size: 120%; */
+}
+
+.icon-cog:before { content: '\2699'; } /* '⚙' */
+.icon-ok:before { content: '\2713'; } /* '✓' */
+.icon-ok-circle:before { content: '\2714'; } /* '✔' */
+.icon-cancel:before { content: '\2715'; } /* '✕' */
+.icon-cancel-circle:before { content: '\2716'; } /* '✖' */
+.icon-doc-alt:before { content: '\e732'; } /* '' */
+.icon-doc-inv-alt:before { content: '\e733'; } /* '' */
+.icon-zoom-in:before { content: '\e750'; } /* '' */
+.icon-zoom-out:before { content: '\e751'; } /* '' */
+.icon-list:before { content: '\e765'; } /* '' */
+.icon-equalizer:before { content: '\e795'; } /* '' */
+.icon-lamp:before { content: '💡'; } /* '\1f4a1' */
+.icon-clock:before { content: '🕔'; } /* '\1f554' */
+
+

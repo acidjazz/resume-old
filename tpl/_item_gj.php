@@ -1,6 +1,6 @@
 <div class="modal item item_gj">
 
-  <div class="close">close</div>
+  <div class="close"><span class="icon-cancel"></span></div>
 
   <div class="clear">&nbsp;</div>
 

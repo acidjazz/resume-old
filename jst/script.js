@@ -111,8 +111,6 @@ var k = {
 
       var config = $('.config');
 
-      console.log(config.length);
-
       if (!config.hasClass('config_open')) {
         config.addClass('config_open');
       } else {

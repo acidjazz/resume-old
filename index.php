@@ -37,7 +37,7 @@ if (isset($_REQUEST['t']) && is_numeric($_REQUEST['t'])) {
   <div class="contact">
     <div>kevin scott olson junior</div>
     <div>(949) 290 - 8989</div>
-    <div class="email" data-input='<input readonly type="text" value="acidjazz@gmail.com" />'>acidjazz@gmail.com</div>
+    <div class="email" data-input='<input readonly type="text" value="ke@vin.so.sh" />'>ke@vin.so</div>
   </div>
 
   <?require_once 'tpl/_config.php'; ?>
