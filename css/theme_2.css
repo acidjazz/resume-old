@@ -80,21 +80,21 @@
 .modal.item .description a { color: $3; }
 .modal.item .description { border-bottom-color: $3; }
 
-.modal.item .tech { color: $3; }
-.modal.item .tech div { background-color: $1; }
+.modal.item .tech { color: $2; }
+.modal.item .tech div { background-color: $5; }
 .modal.item .gallery div { border-color: $1; }
 
 .close {
   color: $3;
-  border-color: $4;
-  background-color: $2;
 }
 
 .close:hover {
   color: $1;
-  background-color: $3;
 }
 
 .zoom { background-color: $1; }
 
+.modal.knowledge .tech label { color: $1; }
+.modal.knowledge .split { border-bottom: 1px solid $4; }
+.modal.knowledge .tech div { background-color: rgba(!5, 0.5); }
 

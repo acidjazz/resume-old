@@ -82,16 +82,16 @@
 .modal.item .gallery div { border-color: $5; }
 
 .close {
-  color: $3;
-  border-color: $5;
-  background-color: $1;
+  color: $2;
 }
 
 .close:hover {
-  color: $3;
-  background-color: $5;
+  color: $5;
 }
 
 .zoom { background-color: $4; }
 
+.modal.knowledge .tech label { color: $3; }
+.modal.knowledge .split { border-bottom: 1px solid $2; }
+.modal.knowledge .tech div { background-color: rgba(!5, 0.6); }
 

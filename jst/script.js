@@ -10,8 +10,11 @@ var k = {
   handlers: function() {
 
     $('.contact .email').click(k.email.i);
-    $('.work .item').click(k.item.i);
+
+    $('.work .item, .knowledge .item').click(k.item.i);
+
     $('.modal .close, .overlay, .code .close').click(k.item.close);
+
     $('.gallery img').click(k.zoom.i);
     $('.zoom, .zoom .close').click(k.zoom.d);
 
@@ -24,7 +27,7 @@ var k = {
   email: {
 
     i: function() {
-      if ($(this).html() == 'acidjazz@gmail.com') {
+      if ($(this).html() == 'ke@vin.so') {
         $(this).html($(this).data('input'));
         $('.contact .email input').unbind('blur').blur(k.email.d);
       }
@@ -33,7 +36,7 @@ var k = {
     },
 
     d: function() {
-      $('.contact .email').html('acidjazz@gmail.com');
+      $('.contact .email').html('ke@vin.so');
     }
 
   },

@@ -108,10 +108,14 @@ body {
 .contact {
   float: right;
   padding: 10px 20px;
+  text-align: right;
 }
 
 .contact .email {
   cursor: pointer;
+}
+.contact .email input {
+  width: 100px;
 }
 
 .header {
@@ -232,7 +236,7 @@ body {
 }
 
 
-.knowledge .item {
+.section.knowledge .item {
   float: left;
   width: 300px;
   height: 100px;
@@ -248,7 +252,7 @@ body {
 
 }
 
-.knowledge .item:hover {
+.section.knowledge .item:hover {
 
   transform:scale(1.2);
   -moz-transform:scale(1.2);
@@ -260,7 +264,7 @@ body {
 }
 
 
-.knowledge .item .bg {
+.section.knowledge .item .bg {
   width: 300px;
   height: 100px;
   transition: background 0.2s ease-out;
@@ -268,20 +272,20 @@ body {
   -moz-transition: background 0.2s ease-out;
 }
 
-.knowledge .item .bg:hover {
+.section.knowledge .item .bg:hover {
   transition: background 2.0s ease-out 0.2s;
   -webkit-transition: background 2.0s ease-out 0.2s;
   -moz-transition: background 2.0s ease-out 0.2s;
 }
 
-.knowledge .frontend .bg { background: url('/img/knowledge_frontend_bg_o20.png'); }
-.knowledge .frontend .bg:hover { background: url('/img/knowledge_frontend_bg.png') -100px; }
-.knowledge .backend .bg { background: url('/img/knowledge_backend_bg_o20.png'); }
-.knowledge .backend .bg:hover { background: url('/img/knowledge_backend_bg.png') -100px; }
-.knowledge .ops .bg { background: url('/img/knowledge_ops_bg_o20.png'); }
-.knowledge .ops .bg:hover { background: url('/img/knowledge_ops_bg.png') -100px; }
+.section.knowledge .frontend .bg { background: url('/img/knowledge_frontend_bg_o20.png'); }
+.section.knowledge .frontend .bg:hover { background: url('/img/knowledge_frontend_bg.png') -100px; }
+.section.knowledge .backend .bg { background: url('/img/knowledge_backend_bg_o20.png'); }
+.section.knowledge .backend .bg:hover { background: url('/img/knowledge_backend_bg.png') -100px; }
+.section.knowledge .ops .bg { background: url('/img/knowledge_ops_bg_o20.png'); }
+.section.knowledge .ops .bg:hover { background: url('/img/knowledge_ops_bg.png') -100px; }
 
-.knowledge .item .title {
+.section.knowledge .item .title {
   font-size: 2em;
   line-height: 100px;
   text-align: center;
@@ -291,7 +295,7 @@ body {
   -webkit-transition: all 0.2s ease-in 0.2s;
 }
 
-.knowledge .item:hover .title {
+.section.knowledge .item:hover .title {
 
   font-size: 4.2em;
   line-height: 1.1em;
@@ -303,7 +307,7 @@ body {
 
 
 
-.knowledge .item .detail {
+.section.knowledge .item .detail {
 
   text-align: center;
   margin-left: 300px;
@@ -315,7 +319,7 @@ body {
   -webkit-transition: all 0.2s ease-in;
 }
 
-.knowledge .item:hover .detail {
+.section.knowledge .item:hover .detail {
   margin-left: 0px;
   transition: all 0.2s ease-in 0.2s;
   -moz-transition: all 0.2s ease-in 0.2s;
@@ -375,7 +379,7 @@ body {
   text-align: center;
 }
 
-.modal.item .tech div {
+.modal.item .tech div, .modal.knowledge .tech div {
   padding: 5px 10px; 
   border-radius: 5px;
   display: inline-block;
@@ -417,16 +421,13 @@ body {
  
 
 .close {
+
+  font-size: 2em;
+
   cursor: pointer;
   float: right;
   margin: 10px;
-  padding: 5px;
-  padding: 5px 2px 5px 5px;
-
   text-align: center;
-
-  border: 1px solid;
-  border-radius: 20px;
 
   transition: all 0.2s ease-in-out;
   -webkit-transition: all 0.2s ease-in-out;
@@ -435,6 +436,10 @@ body {
 }
 
 .close:hover {
+  transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+
   transition: all 0.2s ease-in-out;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
@@ -520,4 +525,34 @@ body {
   float: left;
   height: 20px;
   width: 6px;
+}
+
+.modal.knowledge .title label {
+  font-size: 4em;
+}
+
+.modal.knowledge .tech {
+  position: relative;
+  height: 80px;
+}
+
+.modal.knowledge .tech label {
+  position: absolute;
+  top: 0;
+  left: 80px;
+  line-height: 96px;
+  font-size: 8em;
+  font-weight: bold;
+  font-family: 'Neutraface2DisplayBold';
+  opacity: 0.8;
+  z-index: 1;
+}
+
+.modal.knowledge .tech div {
+  position: relative;
+  z-index: 2;
+}
+
+.modal.knowledge .footer {
+  height: 40px;
 }

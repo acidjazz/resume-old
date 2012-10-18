@@ -119,9 +119,9 @@ if (isset($_REQUEST['t']) && is_numeric($_REQUEST['t'])) {
 <div class="section_outer">
   <div class="section knowledge">
 
-    <div class="item frontend"><div class="bg">
+    <div class="item frontend" data-item="frontend"><div class="bg">
       <div class="title">front end</div>
-      <div class="detail">html5 / javascript / jquery</div>
+      <div class="detail">html5 / javascript / css</div>
     </div></div>
     <div class="item backend"><div class="bg">
       <div class="title">back end</div>
@@ -150,6 +150,8 @@ if (isset($_REQUEST['t']) && is_numeric($_REQUEST['t'])) {
 <?require 'tpl/_item_game.php'; ?>
 <?require 'tpl/_item_multi.php'; ?>
 
+<?require 'tpl/_knowledge.php'; ?>
+
 
     </div>
     <br /> <br /> <br /> <br />
@@ -176,7 +178,7 @@ if (isset($_REQUEST['t']) && is_numeric($_REQUEST['t'])) {
 
 
 <div class="zoom">
-  <div class="close">close</div>
+  <div class="close"><span class="icon-cancel"></span></div>
   <div class="clear">&nbsp;</div>
   <img src="" />
 </div>
