@@ -1,3 +1,4 @@
+body { background-color: $1 }
 
 .outer_capsule { background-color: $1; }
 .inner_capsule { background-color: $2; }

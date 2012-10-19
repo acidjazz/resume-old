@@ -1,4 +1,4 @@
-<pre class="code_clock code">
+<div class="code_clock code">
 <div class="close"><span class="icon-cancel"></span></div>
 
 <h2>css3/javascript imageless clock</h2>
@@ -13,9 +13,9 @@
 <?=k::highlight(file_get_contents('tpl/_clock.php'), 'html')?>
 
 <div class="close"><span class="icon-cancel"></span></div>
-</pre>
+</div>
 
-<pre class="code_theme code">
+<div class="code_theme code">
 <div class="close"><span class="icon-cancel"></span></div>
 
 <h2>css parsed themes</h2>
@@ -33,6 +33,6 @@
 <?=k::highlight(file_get_contents('tpl/_config.php'), 'php')?>
 
 <div class="close"><span class="icon-cancel"></span></div>
-</pre>
+</div>
 
 

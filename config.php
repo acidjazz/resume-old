@@ -5,7 +5,7 @@ define('LIB_PATHS', G_PATH.'klib/,'.G_PATH.'lib/');
 define('G_URL', 'http://www.kevinolson.org/');
 
 /* kdebug */
-define('KDEBUG', true);
+define('KDEBUG', false);
 define('KDEBUG_HANDLER', true);
 
 /* mongo config */

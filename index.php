@@ -112,6 +112,20 @@ if (isset($_REQUEST['t']) && is_numeric($_REQUEST['t'])) {
   </div>
 </div>
 
+
+<div class="header">timeline</div>
+<div class="clear"></div>
+
+
+<div class="section_outer">
+  <div class="section timeline">
+
+
+
+  </div>
+</div>
+
+
 <div class="header">knowledge</div>
 <div class="clear"></div>
 
@@ -123,11 +137,11 @@ if (isset($_REQUEST['t']) && is_numeric($_REQUEST['t'])) {
       <div class="title">front end</div>
       <div class="detail">html5 / javascript / css</div>
     </div></div>
-    <div class="item backend"><div class="bg">
+    <div class="item backend" data-item="backend"><div class="bg">
       <div class="title">back end</div>
       <div class="detail">php / mysql to nosql / mvc</div>
     </div></div>
-    <div class="item ops"><div class="bg">
+    <div class="item ops" data-item="ops"><div class="bg">
       <div class="title">operations</div>
       <div class="detail">aws /  ec2 / deployment</div>
     </div></div>
@@ -152,35 +166,42 @@ if (isset($_REQUEST['t']) && is_numeric($_REQUEST['t'])) {
 
 <?require 'tpl/_knowledge.php'; ?>
 
-
-    </div>
-    <br /> <br /> <br /> <br />
-    <br /> <br /> <br /> <br />
-    <br /> <br /> <br /> <br />
-    <br /> <br /> <br /> <br />
   </div>
+
+  <div class="footer">
+    <div class="badges">
+      <a 
+        href="http://validator.w3.org/check?uri=ke.vin.so&amp;charset=%28detect+automatically%29&amp;doctype=Inline&amp;group=0" 
+        target="_blank"><div class="html5">&nbsp;</div></a>
+      <a 
+        href="http://jigsaw.w3.org/css-validator/validator?uri=ke.vin.so&amp;profile=css3&amp;usermedium=all&amp;warning=1&amp;vextwarning=&amp;lang=en" 
+        target="_blank"><div class="css3">&nbsp;</div></a>
+    </div>
+  </div>
+
+</div>
 
 
 <div class="preload">
-  <img src="/img/work_gj_bg.png" />
-  <img src="/img/work_studio_bg.png" />
-  <img src="/img/work_coke_bg.png" />
-  <img src="/img/work_cards_bg.png" />
-  <img src="/img/work_dolby_bg.png" />
-  <img src="/img/work_game_bg.png" />
+  <img alt="" src="/img/work_gj_bg.png" />
+  <img alt="" src="/img/work_studio_bg.png" />
+  <img alt="" src="/img/work_coke_bg.png" />
+  <img alt="" src="/img/work_cards_bg.png" />
+  <img alt="" src="/img/work_dolby_bg.png" />
+  <img alt="" src="/img/work_game_bg.png" />
 
-  <img src="/img/work_multi_bg.png" />
+  <img alt="" src="/img/work_multi_bg.png" />
 
-  <img src="/img/knowledge_frontend_bg.png" />
-  <img src="/img/knowledge_backend_bg.png" />
-  <img src="/img/knowledge_ops_bg.png" />
+  <img alt="" src="/img/knowledge_frontend_bg.png" />
+  <img alt="" src="/img/knowledge_backend_bg.png" />
+  <img alt="" src="/img/knowledge_ops_bg.png" />
 </div>
 
 
 <div class="zoom">
   <div class="close"><span class="icon-cancel"></span></div>
   <div class="clear">&nbsp;</div>
-  <img src="" />
+  <img alt="" src="/img/zoom.png" />
 </div>
 
 <script type="text/javascript">

@@ -8,17 +8,17 @@
     <label>Facebook&reg; Studio</label>
 
     <div class="companys">(
-      <a href="http://www.evb.com/" target="_new">EVB</a>, 
-      <a href="http://blog.facebook.com" target="_new">Facebook</a>
+      <a href="http://www.evb.com/" target="_blank">EVB</a>, 
+      <a href="http://blog.facebook.com" target="_blank">Facebook</a>
       )
     </div>
 
   </div>
 
   <div class="gallery">
-    <div><img src="/img/work/studio_1.png" /></div>
-    <div><img src="/img/work/studio_2.png" /></div>
-    <div><img src="/img/work/studio_3.png" /></div>
+    <div><img alt="" src="/img/work/studio_1.png" /></div>
+    <div><img alt="" src="/img/work/studio_2.png" /></div>
+    <div><img alt="" src="/img/work/studio_3.png" /></div>
   </div>
 
   <div class="clear">&nbsp;</div>
@@ -37,7 +37,7 @@
 
   <div class="clear">&nbsp;</div>
 
-  <div class="description">Facebook Studio showcases creative, innovative, and effective marketing with Facebook. It is a community for agencies and marketers to share and be inspired. Check it out <a href="http://www.facebook-studio.com/" target="_new">here</a></div> 
+  <div class="description">Facebook Studio showcases creative, innovative, and effective marketing with Facebook. It is a community for agencies and marketers to share and be inspired. Check it out <a href="http://www.facebook-studio.com/" target="_blank">here</a></div> 
 
   <div class="clear">&nbsp;</div>
 

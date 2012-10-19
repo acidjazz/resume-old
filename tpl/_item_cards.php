@@ -8,8 +8,8 @@
     <label>Yahoo!&reg; Mail Crowd Cards</label>
 
     <div class="companys">(
-      <a href="http://na.isobar.com/" target="_new">Isobar</a>, 
-      <a href="http://mail.yahoo.com" target="_new">Yahoo! Mail</a>
+      <a href="http://na.isobar.com/" target="_blank">Isobar</a>, 
+      <a href="http://mail.yahoo.com" target="_blank">Yahoo! Mail</a>
       )
     </div>
 
@@ -18,9 +18,9 @@
   <div class="clear">&nbsp;</div>
 
   <div class="gallery">
-    <div><img src="/img/work/cards_1.png" /></div>
-    <div><img src="/img/work/cards_2.png" /></div>
-    <div><img src="/img/work/cards_3.png" /></div>
+    <div><img alt="" src="/img/work/cards_1.png" /></div>
+    <div><img alt="" src="/img/work/cards_2.png" /></div>
+    <div><img alt="" src="/img/work/cards_3.png" /></div>
   </div>
 
   <div class="tech">

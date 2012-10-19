@@ -8,8 +8,8 @@
     <label>Adidas&reg; Game Face</label>
 
     <div class="companys">(
-      <a href="http://na.isobar.com/" target="_new">Isobar</a>, 
-      <a href="http://www.adidas.com" target="_new">Adidas</a>
+      <a href="http://na.isobar.com/" target="_blank">Isobar</a>, 
+      <a href="http://www.adidas.com" target="_blank">Adidas</a>
       )
     </div>
 
@@ -18,9 +18,9 @@
   <div class="clear">&nbsp;</div>
 
   <div class="gallery">
-    <div><img src="/img/work/game_1.jpg" /></div>
-    <div><img src="/img/work/game_2.jpg" /></div>
-    <div><img src="/img/work/game_3.jpg" /></div>
+    <div><img alt="" src="/img/work/game_1.jpg" /></div>
+    <div><img alt="" src="/img/work/game_2.jpg" /></div>
+    <div><img alt="" src="/img/work/game_3.jpg" /></div>
   </div>
 
   <div class="clear">&nbsp;</div>
