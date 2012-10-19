@@ -14,7 +14,7 @@ if (isset($_REQUEST['t']) && is_numeric($_REQUEST['t'])) {
 <html>
 
 <head>
-<title> kevin olson - resume</title>
+<title>kevin olson - resume</title>
 
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 
@@ -119,9 +119,7 @@ if (isset($_REQUEST['t']) && is_numeric($_REQUEST['t'])) {
 
 <div class="section_outer">
   <div class="section timeline">
-
-
-
+    under construction
   </div>
 </div>
 
@@ -177,6 +175,7 @@ if (isset($_REQUEST['t']) && is_numeric($_REQUEST['t'])) {
         href="http://jigsaw.w3.org/css-validator/validator?uri=ke.vin.so&amp;profile=css3&amp;usermedium=all&amp;warning=1&amp;vextwarning=&amp;lang=en" 
         target="_blank"><div class="css3">&nbsp;</div></a>
     </div>
+    <div class="source"><span class="icon-zoom-in"></span></div>
   </div>
 
 </div>

@@ -22,6 +22,8 @@ var k = {
 
     $('.code_view').click(k.code.i);
 
+    $('.source').click(function() { window.location = "view-source:" + window.location.href });
+
   },
 
   email: {

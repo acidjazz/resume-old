@@ -1,3 +1,4 @@
+/* * { outline: 1px solid red; } */
 
 body {
   font-family: 'Neutraface2TextBook';
@@ -557,9 +558,35 @@ body {
   height: 40px;
 }
 
+/* timeline */
+
+.section.timeline {
+  text-align: center;
+  font-size: 6em;
+  margin: 40px 0;
+}
+
+/* footer */
+
 .footer {
   margin: 0 10px; 
 }
+
+.source {
+  float: left;
+}
+
+.source {
+  cursor: pointer;
+  width: 16px;
+  height: 16px;
+  margin: 5px 0 0 0;
+}
+
+.source span {
+  font-size: 1.5em;
+}
+
 
 .badges div {
   float: right;
@@ -571,7 +598,4 @@ body {
 
 .badges .html5 { background: url('/img/icon_html5.png'); }
 .badges .css3 { background: url('/img/icon_css3.png'); }
-
-
-
 
