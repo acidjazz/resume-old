@@ -138,6 +138,10 @@ body {
   overflow: hidden;
 }
 
+.section.work {
+  min-height: 455px;
+}
+
 .work .item {
   display: inline-block;
   cursor: pointer;
