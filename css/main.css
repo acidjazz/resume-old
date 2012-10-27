@@ -25,9 +25,7 @@ body {
   margin: 0 10px;
 }
 
-.name {
-  font-size: 4em;
-}
+.name { font-size: 4em; } 
 
 .corner {
   width: 0px;
@@ -52,8 +50,24 @@ body {
 .name .stitch {
   border-top: 2px dashed;
   border-bottom: 2px dashed;
+  margin: 5px 0;
   padding: 10px 40px;
-  margin: 5px;
+}
+
+.name .stitch .kso {
+  float: left;
+  background: url('/img/kso.png');
+  width: 179px;
+  height: 99px;
+  margin: 5px 0 0 50px;
+}
+
+.name .stitch .bars {
+  margin: 35px 0 0 0;
+}
+.name .stitch .bars div {
+  height: 5px;
+  margin: 10px 0 10px 0;
 }
 
 .code_view {
@@ -84,6 +98,7 @@ body {
   position: absolute;
   top: 100px;
   left: 20%;
+  z-index: 300;
 
   white-space: pre;
 
@@ -201,10 +216,11 @@ body {
 .work .item_multi .bg:hover { background: url('/img/work_multi_bg.png') -100px; }
 
 .work .item .title {
-  text-align: center;
+
   font-size: 1.8em;
   margin-top: 60px;
   padding: 10px 2px;
+  text-align: center;
 
   transition: all 0.2s ease-in;
   -moz-transition: all 0.2s ease-in;
@@ -213,7 +229,7 @@ body {
 
 .work .item:hover .title {
 
-  margin-top: 0px;
+  margin-top: 0px; 
   transition: all 0.4s ease-out;
   -moz-transition: all 0.4s ease-out;
   -webkit-transition: all 0.4s ease-out;
@@ -234,11 +250,11 @@ body {
 }
 
 .work .item:hover .detail {
-  margin-top: 40px;
+  margin-top: 40px; 
   padding: 10px 10px 20px 10px;
-  transition: all 0.2s ease-in;
-  -moz-transition: all 0.2s ease-in;
-  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.4s ease-in 0.4s;
+  -moz-transition: all 0.2s ease-in 0.4s;
+  -webkit-transition: all 0.2s ease-in 0.4s;
 }
 
 
@@ -341,6 +357,7 @@ body {
   top: 0px;
   left: 0px;
   background: rgba(0, 0, 0, 0.9);
+  z-index: 280;
 }
 
 .modal {
@@ -350,6 +367,7 @@ body {
   left: 20%;
   width: 800px;
   overflow: hidden;
+  z-index: 300;
 }
 
 .modal.item .title {
@@ -460,6 +478,7 @@ body {
   overflow: hidden;
   padding: 10px 40px 40px 40px;
   text-align: center;
+  z-index: 310;
 }
 
 .preload {

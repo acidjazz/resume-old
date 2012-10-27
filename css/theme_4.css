@@ -96,3 +96,21 @@ body { background-color: $5 }
 .modal.knowledge .split { border-bottom: 1px solid $2; }
 .modal.knowledge .tech div { background-color: rgba(!5, 0.6); }
 
+
+/* timeline */
+
+
+.storyjs-embed,.vco-storyjs .vco-container.vco-main {
+  color: $1;
+  background-color: $1;
+}
+
+.timenav-background {
+  background-color: $5;
+}
+
+.timenav-interval-background {
+  background-color: $1;
+}
+
+

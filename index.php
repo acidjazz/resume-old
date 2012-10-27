@@ -24,6 +24,8 @@ if (isset($_REQUEST['t']) && is_numeric($_REQUEST['t'])) {
 
 <script type="text/javascript" src="/jst/lib.js"></script>
 <script type="text/javascript" src="/jst/clock.js"></script>
+<script type="text/javascript" src="/jst/timeline.js"></script>
+<script type="text/javascript" src="/jst/storyjs-embed.js"></script>
 <script type="text/javascript" src="/jst/script.js"></script>
 
 </head>
@@ -49,7 +51,12 @@ if (isset($_REQUEST['t']) && is_numeric($_REQUEST['t'])) {
 
   <div class="name">
     <div class="clear">&nbsp;</div>
-    <div class="stitch">kevin olson</div>
+    <div class="stitch">
+      <!--<img src="/img/logo/1.png" />-->
+
+      kevin scott olson
+    
+    </div>
     <div class="clear">&nbsp;</div>
   </div>
   <div class="corner right"></div>
@@ -59,7 +66,7 @@ if (isset($_REQUEST['t']) && is_numeric($_REQUEST['t'])) {
 
 <div class="clear"></div>
 
-<div class="header">work</div>
+<div class="header">sample work</div>
 <div class="clear"></div>
 
 <div class="section_outer">
@@ -119,7 +126,11 @@ if (isset($_REQUEST['t']) && is_numeric($_REQUEST['t'])) {
 
 <div class="section_outer">
   <div class="section timeline">
-    under construction
+
+    <div id="timeline">
+
+    </div>
+
   </div>
 </div>
 
@@ -206,9 +217,23 @@ if (isset($_REQUEST['t']) && is_numeric($_REQUEST['t'])) {
 <script type="text/javascript">
 
   $(document).ready(function() {
+
     k.i();
     clock.i();
+
+    createStoryJS({
+      type:       'timeline',
+      width:      $('.section_outer').width()-15,
+      height:     '600',
+      start_at_end: true,
+      source:     'https://docs.google.com/spreadsheet/pub?key=0Ar_AACxm8yEhdFFZOGVaenhGYm54Z2JYbHloTzR4bVE&output=html',
+      embed_id:   'timeline'
+    });
+
+
   });
+
+
 
 </script>
 

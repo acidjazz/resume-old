@@ -86,7 +86,7 @@ var k = {
     }
 
     $('.overlay').show();
-    $('.overlay').css({height: $(window).height() + 'px'});
+    $('.overlay').css({height: $(document).height() + 'px'});
 
   },
 

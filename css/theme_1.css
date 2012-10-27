@@ -30,6 +30,11 @@ body { background-color: $2 }
 .name .stitch { border-color: $4; }
 .corner.right, .corner.left { border-top-color: $5; }
 
+
+.name .stitch .bars div {
+ /* background-color: $1; */
+}
+
 .header {
   color: $2;
   border-bottom-color: $2;
@@ -95,4 +100,24 @@ body { background-color: $2 }
 .modal.knowledge .tech label { color: $1; }
 .modal.knowledge .split { border-bottom: 1px solid $2; }
 .modal.knowledge .tech div { background-color: rgba(!5, 0.8); }
+
+
+
+/* timeline */
+
+
+.storyjs-embed,.vco-storyjs .vco-container.vco-main {
+  color: $1;
+  background-color: $3;
+}
+
+.timenav-background {
+  background-color: $2;
+}
+
+.timenav-interval-background {
+  background-color: $3;
+}
+
+
 
