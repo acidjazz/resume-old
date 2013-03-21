@@ -1,3 +1,3 @@
 # kevin olson
 
-## my current resume.. work in progress
+## my current resume/portfolio.. work in progress
